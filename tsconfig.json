@@ -34,6 +34,7 @@
     },
     "types": [
       "node",
+      "element-plus/global",
     ]
   },
   "include": [

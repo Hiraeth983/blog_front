@@ -11,10 +11,10 @@ const count = ref(0);
 
 <template>
   <h1>{{ msg }}</h1>
-  <div>{{ global.token + "testColor"}}</div>
+  <div>{{ global.token }}</div>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <ElButton @click="count++">count is {{ count }}</ElButton>
   </div>
 </template>
 
